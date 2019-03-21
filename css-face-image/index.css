@@ -1,0 +1,73 @@
+html {
+  background: #F5EFED;
+}
+.box {
+  position: absolute;
+  left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+  display: block;
+  width: 700px;
+  height: 700px;
+  background: none;
+  border:solid red;
+}
+ 
+.head .face{
+  left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+  position: absolute;
+  display: block;
+  width: 80%;
+  height:80%;
+  background: #f0ca9b;
+  border-radius: 35%;
+  z-index:10;
+}
+ 
+.head .hair_line-front{
+  left: 50%;
+        top: 50%;
+        transform: translate(-50%,-65%);
+  position: absolute;
+  display: block;
+  width: 85%;
+  height:65%;
+  background: #043754;
+  border-radius: 35%;
+  z-index:7;
+}
+ 
+.head .hair_line-back{
+  left: 50%;
+        top: 50%;
+        transform: translate(-50%,-65%);
+  position: absolute;
+  display: block;
+  width: 88%;
+  height:63%;
+  background: #043754;
+  border-radius: 35%;
+  z-index:5;
+}
+ 
+.head .ear {
+  left: 50%;
+        top: 50%;
+  position: absolute;
+  display: block;
+  width: 28%;
+  height:28%;
+  background: #f0bf94;
+  border-radius: 100%;
+  z-index:6;
+}
+ 
+.head .ear.left{
+        transform: translate(-175%,-50%);
+}
+ 
+.head .ear.right{
+        transform: translate(75%,-50%);
+}
